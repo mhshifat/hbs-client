@@ -1,0 +1,134 @@
+#rentalListing {
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .page-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: "Arimo";
+    font-weight: 700;
+  }
+
+  /* SINGLE CARD STYLES*/
+  .bwm-card {
+    box-shadow: 1px 1px 50px 0px rgba(8, 6, 6, 0.2);
+    margin-bottom: 40px;
+
+    .card-block {
+      padding: 10px;
+
+      .card-subtitle {
+        margin: 0;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #16861a;
+      }
+
+      .card-title {
+        font-size: 22px;
+        margin: 5px 0;
+      }
+
+      .card-text {
+        font-size: 12px;
+        font-weight: 300;
+        color: #7e7e7e;
+        margin-bottom: 0;
+      }
+
+      .card-link {
+        background: $main-color;
+        margin-top: 20px;
+        display: inline-block;
+        color: #ffffff;
+        padding: 3px 10px;
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+#rentalDetails {
+  .upper-section {
+    img {
+      width: 100%;
+    }
+
+    margin-bottom: 30px;
+  }
+
+  .details-section {
+    color: $main-text-gray-color;
+    .rental {
+      &-type {
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      &-title {
+        margin-bottom: 5px;
+        font-size: 32px;
+        font-weight: 700;
+      }
+
+      &-city {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 20px;
+      }
+
+      &-room-info {
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 16px;
+
+        span {
+          margin-right: 10px;
+        }
+
+        i {
+          margin-right: 2px;
+        }
+      }
+
+      &-description {
+        font-weight: 300;
+        margin-bottom: 30px;
+      }
+
+      &-assets {
+        .title {
+          margin-bottom: 10px;
+          font-weight: 700;
+          font-size: 22px;
+        }
+        span {
+          display: block;
+          margin-bottom: 15px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+.condo {
+  color: salmon;
+  font-weight: 700 !important;
+}
+
+.apartment {
+  color: slateblue;
+  font-weight: 700 !important;
+}
+
+.house {
+  color: saddlebrown;
+  font-weight: 700 !important;
+}

@@ -1,0 +1,59 @@
+.register-wrapper {
+  width: 80%;
+  height: auto;
+  background: #20232a;
+  color: #ffffff;
+  padding: 30px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+
+  & h1 {
+    font-size: 20px;
+    color: rgb(97, 218, 251);
+    margin-bottom: 30px;
+  }
+}
+
+.input-form {
+  margin-bottom: 30px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+::-moz-placeholder {
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+:-moz-placeholder {
+  font-size: 15px;
+}
+
+.form-btn {
+  background: #20232a;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 35px;
+  box-shadow: 1px 1px 2000px 0 rgba(255, 255, 255, 0.5);
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background: inherit;
+    color: inherit;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}

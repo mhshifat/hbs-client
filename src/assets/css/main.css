@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto:300,400,500,700,900");
+body {
+  font-family: "Roboto";
+  font-weight: 400; }
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0; }
+  .loader i {
+    color: #61dafb; }
+
+.error-messages {
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  width: 350px; }
+
+.logout {
+  cursor: pointer;
+  color: #61dafb !important; }
+  .logout:hover {
+    opacity: 0.5 !important; }
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #20232a; }
+  .navbar .bwm-search {
+    height: 50px;
+    width: 300px !important; }
+  .navbar .navbar-brand {
+    margin-right: 30px;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #61dafb !important;
+    font-weight: 500; }
+  .navbar .nav-item {
+    font-size: 14px; }
+  .navbar .btn-bwm-search {
+    border-color: #61dafb;
+    color: #61dafb; }
+    .navbar .btn-bwm-search:hover, .navbar .btn-bwm-search:focus, .navbar .btn-bwm-search:active {
+      background-color: transparent !important;
+      border-color: #61dafb !important;
+      color: #61dafb !important;
+      box-shadow: none; }
+  .navbar .nav-item {
+    color: #ededed; }
+  .navbar .nav-link {
+    font-size: 16px; }
+
+.footer {
+  margin-bottom: 0;
+  background: #20232a;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: auto; }
+  .footer h1 {
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: "Arimo"; }
+
+#rentalListing {
+  /* SINGLE CARD STYLES*/ }
+  #rentalListing .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px; }
+  #rentalListing .page-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: "Arimo";
+    font-weight: 700; }
+  #rentalListing .bwm-card {
+    box-shadow: 1px 1px 50px 0px rgba(8, 6, 6, 0.2);
+    margin-bottom: 40px; }
+    #rentalListing .bwm-card .card-block {
+      padding: 10px; }
+      #rentalListing .bwm-card .card-block .card-subtitle {
+        margin: 0;
+        font-weight: 500;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #16861a; }
+      #rentalListing .bwm-card .card-block .card-title {
+        font-size: 22px;
+        margin: 5px 0; }
+      #rentalListing .bwm-card .card-block .card-text {
+        font-size: 12px;
+        font-weight: 300;
+        color: #7e7e7e;
+        margin-bottom: 0; }
+      #rentalListing .bwm-card .card-block .card-link {
+        background: #61dafb;
+        margin-top: 20px;
+        display: inline-block;
+        color: #ffffff;
+        padding: 3px 10px;
+        border-radius: 2px; }
+
+#rentalDetails .upper-section {
+  margin-bottom: 30px; }
+  #rentalDetails .upper-section img {
+    width: 100%; }
+
+#rentalDetails .details-section {
+  color: #4a4a4a; }
+  #rentalDetails .details-section .rental-type {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0; }
+  #rentalDetails .details-section .rental-title {
+    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: 700; }
+  #rentalDetails .details-section .rental-city {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px; }
+  #rentalDetails .details-section .rental-room-info {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px; }
+    #rentalDetails .details-section .rental-room-info span {
+      margin-right: 10px; }
+    #rentalDetails .details-section .rental-room-info i {
+      margin-right: 2px; }
+  #rentalDetails .details-section .rental-description {
+    font-weight: 300;
+    margin-bottom: 30px; }
+  #rentalDetails .details-section .rental-assets .title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 22px; }
+  #rentalDetails .details-section .rental-assets span {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: 300; }
+
+.condo {
+  color: salmon;
+  font-weight: 700 !important; }
+
+.apartment {
+  color: slateblue;
+  font-weight: 700 !important; }
+
+.house {
+  color: saddlebrown;
+  font-weight: 700 !important; }
+
+.register-wrapper {
+  width: 80%;
+  height: auto;
+  background: #20232a;
+  color: #ffffff;
+  padding: 30px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 50px; }
+  .register-wrapper h1 {
+    font-size: 20px;
+    color: #61dafb;
+    margin-bottom: 30px; }
+
+.input-form {
+  margin-bottom: 30px; }
+
+::-webkit-input-placeholder {
+  font-size: 15px; }
+
+::-moz-placeholder {
+  font-size: 15px; }
+
+:-ms-input-placeholder {
+  font-size: 15px; }
+
+:-moz-placeholder {
+  font-size: 15px; }
+
+.form-btn {
+  background: #20232a;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 35px;
+  box-shadow: 1px 1px 2000px 0 rgba(255, 255, 255, 0.5);
+  outline: none;
+  cursor: pointer; }
+  .form-btn:hover {
+    background: inherit;
+    color: inherit; }
+  .form-btn:active, .form-btn:focus {
+    outline: none; }
+
+.booking {
+  padding: 20px;
+  border: 1px solid #d8d8d8;
+  margin-bottom: 50px; }
+  .booking .btn-confirm {
+    font-size: 17px;
+    font-weight: 700;
+    padding: 13px; }
+  .booking label {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 0; }
+  .booking-price {
+    font-size: 22px;
+    font-weight: 700; }
+  .booking-per-night {
+    font-size: 13px;
+    font-weight: 300; }
+  .booking-note-title {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .booking-note-text {
+    font-size: 13px;
+    font-weight: 300; }
+  .booking .should-login-btn-container {
+    text-align: center;
+    margin-bottom: 10px; }
+    .booking .should-login-btn-container .btn-login {
+      text-align: center;
+      font-size: 15px;
+      padding: 15px; }
+      .booking .should-login-btn-container .btn-login:hover, .booking .should-login-btn-container .btn-login:focus {
+        color: white;
+        text-decoration: none; }
+
+.booking-modal .title {
+  font-weight: 700;
+  font-size: 26px; }
+
+.booking-modal .buttons {
+  margin: 15px 0px; }
+
+.booking-modal em {
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700; }
+
+.booking-modal p {
+  margin: 0; }
+
+.daterangepicker td.in-range {
+  background-color: red #61dafb; }
+
+.daterangepicker td.active {
+  background-color: #61dafb !important; }

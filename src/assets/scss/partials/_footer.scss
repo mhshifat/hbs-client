@@ -1,0 +1,14 @@
+.footer {
+  margin-bottom: 0;
+  background: #20232a;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: auto;
+
+  & h1 {
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-family: "Arimo";
+  }
+}
