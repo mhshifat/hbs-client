@@ -14,7 +14,7 @@ export const LogoutUserAction = () => dispatch => {
 export const registerNewUserAction = (userData, history) => async dispatch => {
   try {
     const res = await axios.post(
-      "http://localhost:5000/api/v1/users/register",
+      "https://hbs--server.herokuapp.com/api/v1/users/register",
       userData
     );
     if (res.data.Registration) {
@@ -28,7 +28,7 @@ export const registerNewUserAction = (userData, history) => async dispatch => {
 export const loginExistingUser = (userData, history) => async dispatch => {
   try {
     const res = await axios.post(
-      "http://localhost:5000/api/v1/users/auth",
+      "https://hbs--server.herokuapp.com/api/v1/users/auth",
       userData
     );
     if (res.data) {
